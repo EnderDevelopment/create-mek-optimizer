@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="factoryflow"
+version="1.0.0"
+displayName="FactoryFlow"
+description="Dependency-free quality-of-life and diagnostics tools for automation servers."
+
+[[dependencies.factoryflow]]
+modId="neoforge"
+type="required"
+versionRange="[21.11.48,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.factoryflow]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.11,)"
+ordering="NONE"
+side="BOTH"
